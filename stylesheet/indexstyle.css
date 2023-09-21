@@ -18,7 +18,7 @@ h4 {
     margin-bottom: 30px;
 }  
 .jumbotron {
-    background: url("image.png") no-repeat center center;
+    background: url("img/image.png") no-repeat center center;
     background-size: cover;
     color: #fff;
     padding: 100px 25px;
