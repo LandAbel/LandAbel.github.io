@@ -169,3 +169,10 @@ footer .glyphicon {
       font-size: 150px;
   }
 }
+.jumbotron {
+    background: url("img/image.png") no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    padding: 100px 25px;
+    font-family: Montserrat, sans-serif;
+}
