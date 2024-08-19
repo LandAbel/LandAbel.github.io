@@ -250,3 +250,23 @@ footer .glyphicon {
     margin-top: 0;
     color: #333;
   }
+
+  .portfolio-link {
+    display: block; /* Make the link a block element so padding and margins are applied */
+    padding: 20px; /* Adjust padding to make the box bigger */
+    margin: 10px; /* Optional: Adds spacing between the boxes */
+    background-color: #f9f9f9; /* Background color of the box */
+    color: #333; /* Text color */
+    text-decoration: none; /* Remove underline from links */
+    border: 1px solid #ddd; /* Border around the box */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Shadow effect for depth */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition for hover effect */
+    text-align: center; /* Center text inside the box */
+  }
+  
+  .portfolio-link:hover {
+    background-color: #e0e0e0; /* Lighten background on hover */
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2); /* Enhanced shadow on hover */
+  }
+  
